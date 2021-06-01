@@ -174,9 +174,8 @@ function moveTieToLeft(tie){
 
 tie.startAnimation(moveTieToRight, 15)
 
-
-// for(var i=1; i<=11; i++){
-//     window["tie"+i].startAnimation(moveTieToRight, 10);
+// for(let i=1; i<=11; i++){
+//     window['tie'+i].startAnimation(moveTieToRight, 10);
 // }
 
 Sprite.prototype.checkCollision = function (other){
